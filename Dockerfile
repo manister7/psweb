@@ -2,7 +2,7 @@
 # Linux x64
 FROM alpine
 
-LABEL maintainer="nigelpoulton@hotmail.com"
+LABEL maintainer="Testing Containers, taken from Nigel Pulton"
 
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
