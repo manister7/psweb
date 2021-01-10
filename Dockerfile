@@ -7,10 +7,6 @@ LABEL maintainer="nigelpoulton@hotmail.com"
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
 
-#Git fix
-RUN git submodule init && git submodule update
-
-
 # Copy app to /src
 COPY . /src
 
