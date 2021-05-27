@@ -15,6 +15,6 @@ WORKDIR /src
 # Install dependencies
 RUN  npm install
 
-EXPOSE 8081
+EXPOSE 8080
 
 ENTRYPOINT ["node", "./app.js"]
