@@ -2,7 +2,7 @@
 # Linux x64
 FROM alpine
 
-LABEL maintainer="Testing Containers, taken from Nigel Pulton"
+LABEL maintainer="Testing Containers, taken from Nigel Pulton, Version:1.1"
 
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
@@ -15,6 +15,6 @@ WORKDIR /src
 # Install dependencies
 RUN  npm install
 
-EXPOSE 8080
+EXPOSE 8081
 
 ENTRYPOINT ["node", "./app.js"]
